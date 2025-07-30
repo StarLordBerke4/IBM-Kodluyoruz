@@ -1,3 +1,5 @@
+# Adam Asmaca Oyunu
+
 import tkinter as tk  # Grafik arayüz oluşturmak için tkinter kütüphanesini içe aktarıyoruz
 from tkinter import messagebox  # Bilgi kutusu göstermek için
 import random  # Rastgele kelime seçimi için kullanılır
@@ -85,8 +87,7 @@ class HangmanGame:
         # Kaybetme durumu kontrolü
         elif self.wrong_guesses >= self.max_tries:
             self.end_game(False)
-# Adam Asmaca Oyunu
-    
+
     # Oyun bittiğinde çalışacak fonksiyon
     def end_game(self, won):
         if won:
